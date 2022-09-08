@@ -1,8 +1,12 @@
 #include <stdio.h>
+
+
 /**
- * *Main - print string using puts
- * *Return:0 always on success
- * */
+ * main - This is the entry point of the project
+ *
+ * Return: always 0
+ */
+
 
 int main(void)
 {
