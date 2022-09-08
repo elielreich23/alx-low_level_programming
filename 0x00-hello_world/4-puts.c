@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 /**
- * main-this is the entrey point
- *
- * return should always be 0
- */
+ * *Main - print string using puts
+ * *Return:0 always on success
+ * */
 
 int main(void)
 {
