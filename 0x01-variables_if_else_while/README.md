@@ -1,1 +1,1 @@
-if else variable
+this repo is about conditional declaration
