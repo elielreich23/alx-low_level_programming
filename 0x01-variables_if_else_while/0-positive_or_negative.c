@@ -11,15 +11,15 @@
 
 int main(void)
 {
-	int b;
+	int n;
 
 	srand(time(0));
-	b = rand() - RAND_MAX / 2;
-	if (b == 0)
-		printf("%i is zero\n", b);
-	else if (b < 0)
-		printf("%i is negative\n", b);
+	n = rand() - RAND_MAX / 2;
+	if (n == 0)
+		printf("%i is zero\n", n);
+	else if (n < 0)
+		printf("%i is negative\n", n);
 	else
-		printf("%i is positive\n", b);
+		printf("%i is positive\n", n);
 	return (0);
 }
