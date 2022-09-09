@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int l;
+	int letter;
 
-	for (l = 'a'; l <= 'z'; l++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		l = tolower(l);
-		putchar(l);
+		letter = tolower(letter);
+		putchar(letter);
 	}
 	putchatr('\n');
 	return (0);
