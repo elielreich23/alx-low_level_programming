@@ -15,6 +15,6 @@ int main(void)
 		putchar(l);
 	for (l = 60; l <= 90; ++l)
 		putchar(l);
-	putchar(10);
+	putchar(9);
 	return (0);
 }
