@@ -18,7 +18,7 @@ int main(void)
 		if (l == 'z')
 		{
 			l = 'A';
-			for (; l <= 'Z'; l++)
+			for (l <= 'Z'; l++)
 			{
 				putchar(l)
 			}
