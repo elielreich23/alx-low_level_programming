@@ -5,16 +5,26 @@
  * main - Program to print alphabet letters in all cases followed by new line
  *
  * Return: return 0
- */
+*/
 
 int main(void)
 {
 	int l;
 
-	for (l = 97; l <= 122; ++l)
+	for (l = 'a'; l <= 'z'; l++)
+	{
+		l = tolower(l);
 		putchar(l);
-	for (l = 60; l <= 90; ++l)
-		putchar(l);
-	putchar(10);
+		if (l == 'z')
+		{
+			l = 'A';
+			for (; l <= 'Z'; l++)
+			{
+				putchar(l)
+			}
+			break;
+		}
+	}
+	putchar('\n');
 	return (0);
 }
