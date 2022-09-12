@@ -13,10 +13,10 @@ int main(void)
 
 	for (dig1 = 0; dig1 <= 98; dig1++)
 	{
-		for (dig2 = dig1 + 1; dig <= 99; dig2++)
+		for (dig2 = dig1 + 1; dig2 <= 99; dig2++)
 		{
 			putchar((dig1 / 10) + '0');
-			putchar((dig 1 % 10) + '0');
+			putchar((dig1 % 10) + '0');
 			putchar(32);
 			putchar((dig2 / 10) + '0');
 			putchar((dig2 % 10) + '0');
