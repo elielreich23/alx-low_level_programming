@@ -20,7 +20,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%lu, ", fib);
+			printf("%lu", fib);
 		}
 		first = second;
 		second = fib;
@@ -29,4 +29,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-	
