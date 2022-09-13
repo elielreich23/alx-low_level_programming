@@ -24,7 +24,7 @@ int main(void)
 		}
 		first = second;
 		second = fib;
-		counter++
+		counter++;
 	}
 	printf("\n");
 	return (0);
