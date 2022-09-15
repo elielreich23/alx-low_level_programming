@@ -8,8 +8,15 @@
 
 int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
-		return (1);
+	char C = 'A';
 
-		return (0);
+	for (; C <= 'Z'; C++)
+	{
+		if (c == C)
+		{
+			return (1);
+		}
+	}
+	return (0);
 }
+
