@@ -8,7 +8,7 @@
 */
 
 void print_number(void);
-int _isupper(int);
+int _isupper(int c);
 int _isdigit(int);
 int mul(int, int);
 void print_most_numbers(void);
