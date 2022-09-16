@@ -26,6 +26,6 @@ int main(void)
 		}
 
 	}
-	putchar ("%d\n", number);
+	putchar ("%ld\n", number);
 	return (0);
 }
