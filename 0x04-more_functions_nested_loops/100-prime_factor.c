@@ -10,22 +10,22 @@
 int main(void)
 {
 	long number = 612852475143;
-	int m;
+	int inc;
 
-	while (m++ < number / 2)
+	while (inc++ < number / 2)
 	{
-		if (number % m == 0)
+		if (number % inc == 0)
 		{
 			number /= 2;
 			continue;
 		}
-		for (m = 3; n < number / 2; m += 2)
-		{
-			if (number % m == 0)
-				number /= m;
-		}
 
+		for (inc = 3; inc < number / 2; inc += 2)
+		{
+			if (number % inc == 0)
+				number /= inc;
+		}
 	}
-	printf ("%ld\n", number);
+	printf("%ld\n", number);
 	return (0);
 }
