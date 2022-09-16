@@ -2,7 +2,8 @@
 
 /*
  * mul - function to multiply two int
- * @a & b varibles declared
+ * @a: varibles1 
+ * @b: variable2
  * return: returns value
 */
 
