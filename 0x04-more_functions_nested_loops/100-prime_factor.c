@@ -10,19 +10,19 @@
 int main(void)
 {
 	long number = 612852475143;
-	int num;
+	int m;
 
-	while (num++ < number / 2)
+	while (m++ < number / 2)
 	{
-		if (number % num == 0)
+		if (number % m == 0)
 		{
-			number / 2;
+			number /= 2;
 			continue;
 		}
-		for (num = 3; num < number / 2; num += 2)
+		for (m = 3; n < number / 2; m += 2)
 		{
-			if (number % num == 0)
-				number /= num;
+			if (number % m == 0)
+				number /= m;
 		}
 
 	}
