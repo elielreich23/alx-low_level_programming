@@ -12,16 +12,16 @@
 int main(void)
 {
 	char c;
-	int b;
+	int x;
 
 	srand(time(0));
-	while (b <= 2645)
+	while (x <= 2645)
 	{
 		c = rand() % 128;
-		b += c;
+		x += c;
 		putchar(c);
 	}
-	putchar (2772 - b);
+	putchar (2772 - x);
 
 	return (0);
 }
