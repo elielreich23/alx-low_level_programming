@@ -23,10 +23,10 @@ unsigned int _strspn(char *s, char *accept)
 				bytes++;
 				break;
 			}
-			else if ((accpet[i + 1] == '\0'
-				return (bytes)
+			else if ((accept[i + 1] == '\0')
+					return (bytes);
 		}
 		s++
 	}
-	return (bytes)
+	return (bytes);
 }
