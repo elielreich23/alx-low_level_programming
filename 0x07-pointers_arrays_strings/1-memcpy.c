@@ -1,4 +1,4 @@
-#include "min.h"
+#include "main.h"
 
 /**
  * _memcpy - The _memcpy() function copies n bytes
@@ -15,5 +15,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	for (; i < n; i++)
 		dest[i] = src[i];
+
 	return (dest);
 }
