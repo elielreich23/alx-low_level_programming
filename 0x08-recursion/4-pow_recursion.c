@@ -4,7 +4,7 @@
  * _pow_recursion - function that prints square of number
  * @x: value1
  * @y: value2
- * return: x raised to power y
+ * Return: x raised to power y
 */
 
 int _pow_recursion(int x, int y)
