@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 
 int index, bytes;
-int (*address)(int, char **) = main;
+int (*adrs)(int, char **) = main;
 unsigned char opcode;
 
 if (argc != 2)
@@ -32,13 +32,13 @@ exit(2);
 
 for (index = 0; index <  bytes; index++)
 {
-opcode = *(unsigned char *)address;
+opcode = *(unsigned char *)adrs;
 printf("%.2x", opcode);
 
 if (index == bytes - 1)
 continue;
 printf(" ");
-address++;
+adrs++;
 }
 printf("\n");
 return (0);
