@@ -60,13 +60,7 @@ Holberton
 julien@ubuntu:~/0x02$
 
 </code></pre></div>
-<p dir="auto"><strong>Repo:</strong></p>
-<ul dir="auto">
-<li>GitHub repository: <code>alx-low_level_programming</code></li>
-<li>Directory: <code>0x02-functions_nested_loops</code></li>
-<li>File: <code>0-holberton.c</code></li>
-</ul>
-<p dir="auto"> Done? Help Get a sandbox</p>
+
 <h3 dir="auto"><a id="user-content-1-i-sometimes-suffer-from-insomnia-and-when-i-cant-fall-asleep-i-play-what-i-call-the-alphabet-game" class="anchor" aria-hidden="true" href="#1-i-sometimes-suffer-from-insomnia-and-when-i-cant-fall-asleep-i-play-what-i-call-the-alphabet-game"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game</h3>
 <p dir="auto">mandatory</p>
 <p dir="auto">Write a function that prints the alphabet, in lowercase, followed by a new line.</p>
@@ -77,11 +71,11 @@ julien@ubuntu:~/0x02$
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="julien@ubuntu:~/0x02$ cat 1-main.c
 #include &quot;holberton.h&quot;
 
-/**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
- */
+
+  main - check the code for ALX School students.
+ 
+  Return: Always 0.
+ 
 int main(void)
 {
     print_alphabet();
