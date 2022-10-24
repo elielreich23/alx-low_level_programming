@@ -72,3 +72,9 @@ typedef struct list_s
 </code></pre>
 
   </div>
+  
+  <ul>
+  <li>
+  <a href="/rltoken/epKUCIcoA6XaN1T3Vtr_9w" title="Youtube" target="_blank">0.print_list
+  </li>
+  </ul>
