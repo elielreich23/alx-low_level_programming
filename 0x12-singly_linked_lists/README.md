@@ -75,6 +75,9 @@ typedef struct list_s
   
   <ul>
   <li>
-  <a href="/rltoken/epKUCIcoA6XaN1T3Vtr_9w" title="Youtube" target="_blank">0.print_list
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/0-print_list.c" title="Youtube" target="_blank">0.print_list
+  </li>
+     <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/1-list_len.c" title="Youtube" target="_blank">1.list_len
   </li>
   </ul>
