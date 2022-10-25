@@ -116,5 +116,34 @@ typedef struct list_s
 <li>All your header files should be include guarded</li>
 </ul>
 
+<h2>More Info</h2>
 
-</code></pre></div>
+<p>Please use this data structure for this project:</p>
+
+<pre><code>/**
+ * struct list_s - singly linked list
+ * @str: string - (malloc&#39;ed string)
+>>>>>>> 18b21cfd3b34202994ee4596260babe8e463e35e
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ */
+typedef struct list_s
+{
+    char *str;
+    unsigned int len;
+    struct list_s *next;
+} list_t;
+
+
+</div>
+  
+  <ul>
+  <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/0-print_list.c" title="Youtube" target="_blank">0.print_list
+  </li>
+     <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/1-list_len.c" title="Youtube" target="_blank">1.list_len
+  </li>
+  </ul>
