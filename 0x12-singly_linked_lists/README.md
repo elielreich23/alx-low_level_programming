@@ -64,17 +64,17 @@ typedef struct list_s
 } list_t;
 "><pre class="notranslate"><code>/**
  * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
+ *@str: string - (malloc'ed string)
  * @len: length of the string
- * @next: points to the next node
+ *@next: points to the next node
  *
- * Description: singly linked list node structure
+ *Description: singly linked list node structure
  */
 typedef struct list_s
 {
     char *str;
     unsigned int len;
-    struct list_s *next;
+struct list_s*next;
 } list_t;
 
 </code></pre></div>
@@ -87,6 +87,28 @@ typedef struct list_s
   </li>
      <li>
   <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/1-list_len.c" title="Youtube" target="_blank">1.list_len
+  </li>
+     <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/2-add_node.c" title="Youtube" target="_blank">2-add_node.c
+  </li>
+  <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/2-add_node.c" title="Youtube" target="_blank">2-add_node.c
+  </li>
+  <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/3-add_node_end.c" title="Youtube" target="_blank">3-add_node_end.c
+  </li>
+  <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/4-free_list.c" title="Youtube" target="_blank">4-free_list.c
+  </li>
+   <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/4-free_list.c" title="Youtube" target="_blank">4-free_list.c
+  </li>
+   <li>
+  <a href="https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/100-first.c" title="Youtube" target="_blank">100-first.c
+  </li>
+    <li>
+  <a href="
+https://github.com/elielreich23/alx-low_level_programming/blob/master/0x12-singly_linked_lists/101-hello_holberton.asm" title="Youtube" target="_blank">101-hello_holberton.asm
   </li>
   </ul>
 </div>
