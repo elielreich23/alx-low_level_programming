@@ -1,15 +1,3 @@
-100-elf_header.c
-Last week
-Sat 19:55
-
-Ojo Samuel uploaded an item
-C
-100-elf_header.c
-/*
- * File: 100-elf_header.c
- * Auth: Brennan D Baraban
- */
-
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
